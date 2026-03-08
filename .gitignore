@@ -1,0 +1,23 @@
+# python
+__pycache__/
+*.pyc
+
+# IDE
+.idea/
+.vscode/
+
+# training logs
+runs/
+
+# cache
+*.cache
+
+# large checkpoints (optional)
+*.engine
+
+# OS
+.DS_Store
+Thumbs.db
+
+#mp4
+assets/outputs/demo_results/output_detected.mp4

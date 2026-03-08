@@ -1,0 +1,14 @@
+
+train: train/images
+val: valid/images
+test: test/images
+
+nc: 4
+names: ['bicycle', 'bus', 'car', 'motorcycle']
+
+roboflow:
+  workspace: shangyins-workspace
+  project: intersection-traffic-4cl7i-wzv8m
+  version: 1
+  license: CC BY 4.0
+  url: https://app.roboflow.com/shangyins-workspace/intersection-traffic-4cl7i-wzv8m/1
